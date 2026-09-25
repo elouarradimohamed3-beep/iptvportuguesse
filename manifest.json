@@ -1,0 +1,12 @@
+{
+  "name": "IPTV Portugal",
+  "short_name": "IPTV Portugal",
+  "description": "IPTV Portugal com mais de 55.000 canais ao vivo e 90.000 filmes e séries em 4K.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#00d4ff",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
