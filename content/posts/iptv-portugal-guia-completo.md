@@ -2,6 +2,7 @@
 title: "IPTV Portugal 2026 Guia Completo de Listas e Melhores Serviços"
 description: "A forma como consumimos televisão em Portugal mudou drasticamente. Já não estamos limitados às grelhas rígidas das operadoras tradicionais. O IPTV…"
 date: "2026-03-16"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

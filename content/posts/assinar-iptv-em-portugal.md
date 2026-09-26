@@ -2,6 +2,7 @@
 title: "Assinar IPTV em Portugal: Guia Completo, Preços e Melhores Opções"
 description: "Mudar de país ou simplesmente buscar novas opções de entretenimento traz sempre algumas dúvidas. Se você chegou recentemente à Europa ou apenas quer…"
 date: "2026-01-05"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

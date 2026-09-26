@@ -2,6 +2,7 @@
 title: "Canais Portugueses IPTV 2026: Guia de Estabilidade e Seleção"
 description: "O mercado de canais portugueses IPTV evoluiu de uma simples curiosidade tecnológica para uma infraestrutura complexa de distribuição digital. Em 2026, a…"
 date: "2026-03-02"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

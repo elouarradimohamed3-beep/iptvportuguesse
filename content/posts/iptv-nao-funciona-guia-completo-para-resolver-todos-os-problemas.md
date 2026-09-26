@@ -2,6 +2,7 @@
 title: "IPTV Não Funciona? Guia Completo para Resolver Todos os Problemas"
 description: "Se o seu IPTV não funciona, você não está sozinho. Milhares de utilizadores enfrentam diariamente problemas como canais que não carregam, travamentos…"
 date: "2026-01-11"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

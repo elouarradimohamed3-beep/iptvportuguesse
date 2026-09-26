@@ -2,6 +2,7 @@
 title: "IPTV HD e 4K Portugal: Guia Para Qualidade de Imagem Máxima (2026)"
 description: "A forma como consumimos televisão em Portugal mudou drasticamente na última década. O surgimento da tecnologia IPTV HD e 4K Portugal permitiu que os…"
 date: "2026-02-08"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

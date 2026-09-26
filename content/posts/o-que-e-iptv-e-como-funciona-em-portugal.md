@@ -2,6 +2,7 @@
 title: "O que é IPTV e como funciona em Portugal: Guia Completo [2026]"
 description: "A forma como consumimos televisão mudou radicalmente na última década. Já lá vai o tempo em que dependíamos exclusivamente de antenas no telhado ou de…"
 date: "2026-01-07"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

@@ -2,6 +2,7 @@
 title: "IPTV Android Portugal: O Guia Definitivo para TV Box"
 description: "No universo do entretenimento digital, a combinação IPTV Android Portugal representa o auge da flexibilidade, poder e acesso a um mundo de conteúdo. Os…"
 date: "2026-01-27"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

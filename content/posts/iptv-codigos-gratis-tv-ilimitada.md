@@ -2,6 +2,7 @@
 title: "IPTV Códigos Grátis: A Sua TV Sem Limites e Sem Custos Escondidos"
 description: "Descubra o mundo dos iptv códigos grátis e transforme a sua experiência televisiva. Acesso imediato a milhares de canais. Liberte-se das."
 date: "2026-04-07"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

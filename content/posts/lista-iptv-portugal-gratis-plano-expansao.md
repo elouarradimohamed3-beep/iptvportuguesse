@@ -2,6 +2,7 @@
 title: "Lista IPTV Portugal Grátis O Guia Completo e Plano de Expansão"
 description: "Procura uma lista IPTV Portugal grátis? Descubra a verdade sobre as listas gratuitas, como resolver problemas de buffering e o plano."
 date: "2026-04-22"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

@@ -2,6 +2,7 @@
 title: "IPTV é legal em Portugal? Guia completo sobre leis, riscos e uso seguro"
 description: "A pergunta “IPTV é legal em Portugal?” é cada vez mais comum entre utilizadores que procuram alternativas modernas à televisão tradicional. Com o…"
 date: "2026-01-10"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

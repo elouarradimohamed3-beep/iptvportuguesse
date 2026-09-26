@@ -2,6 +2,7 @@
 title: "Preço IPTV Portugal 2026: Guia Completo de Custos e Qualidade"
 description: "Quando alguém pesquisa Preço IPTV Portugal, raramente quer apenas um número. Quer saber se o valor compensa, se é seguro, se vai funcionar sem travar e se…"
 date: "2026-02-26"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

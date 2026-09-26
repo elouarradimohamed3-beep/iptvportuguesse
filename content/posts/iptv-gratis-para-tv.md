@@ -2,6 +2,7 @@
 title: "IPTV Grátis Para TV: O Guia Completo e Seguro de 2026"
 description: "Procura iptv grátis para tv? Descubra as melhores aplicações, listas legais e dicas para assistir aos seus canais favoritos sem custos."
 date: "2026-04-26"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

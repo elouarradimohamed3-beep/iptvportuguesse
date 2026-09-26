@@ -2,6 +2,7 @@
 title: "Melhor IPTV para Portugal: O Guia Completo e Comparativo 2026"
 description: "O mercado de entretenimento digital em Portugal sofreu uma metamorfose profunda nos últimos anos. Com o aumento dos preços dos pacotes de cabo…"
 date: "2026-01-30"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

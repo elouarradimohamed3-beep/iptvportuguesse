@@ -2,6 +2,7 @@
 title: "Configuração IPTV Portugal: Guia Completo e Passo a Passo 2026"
 description: "A forma como consumimos televisão em Portugal mudou drasticamente nos últimos anos. Já não estamos presos aos horários rígidos das grelhas de programação…"
 date: "2026-01-09"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

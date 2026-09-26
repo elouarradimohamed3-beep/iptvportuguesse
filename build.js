@@ -75,7 +75,7 @@ function parsePost(file) {
   const meta = {};
   m[1].split('\n').forEach(line => { const k = /^(\w+):\s*(.*)$/.exec(line); if (k) meta[k[1]] = JSON.parse(k[2]); });
   ['title', 'description', 'date', 'category'].forEach(k => { if (!meta[k]) throw new Error(`${file}: missing ${k}`); });
-  meta.slug = path.basename(file, '.md'); meta.body = m[2];
+  meta.updated = meta.updated || meta.date; meta.slug = path.basename(file, '.md'); meta.body = m[2];
   meta.words = m[2].split(/\s+/).length;
   return meta;
 }
@@ -97,18 +97,18 @@ const posts = fs.readdirSync(path.join(ROOT, 'content/posts')).filter(f => f.end
 const articleTpl = fs.readFileSync(path.join(ROOT, 'templates/article.html'), 'utf8');
 for (const p of posts) {
   const html = fill(articleTpl, {
-    title: esc(p.title), description: esc(p.description), slug: p.slug, date: p.date, dateHuman: human(p.date),
+    title: esc(p.title), description: esc(p.description), slug: p.slug, date: p.date, dateHuman: human(p.date), updated: p.updated, updatedHuman: human(p.updated),
     category: esc(p.category), jsonTitle: jsonStr(p.title), jsonDescription: jsonStr(p.description), body: markdown(p.body),
   });
   fs.writeFileSync(path.join(OUT, p.slug + '.html'), html);
 }
 const cards = posts.map(p => `    <a class="card" href="/${p.slug}">
-      <div class="cdate">${human(p.date)} · ${Math.max(1, Math.round(p.words / 200))} min de leitura</div>
+      <div class="cdate">Atualizado em ${human(p.updated)} · ${Math.max(1, Math.round(p.words / 200))} min de leitura</div>
       <div class="ctitle">${esc(p.title)}</div>
       <div class="cex">${esc(p.description.length > 170 ? p.description.slice(0, 167) + '…' : p.description)}</div>
     </a>`).join('\n');
 fs.writeFileSync(path.join(OUT, 'blog.html'), fill(fs.readFileSync(path.join(ROOT, 'templates/blog.html'), 'utf8'), { cards, count: String(posts.length) }));
-const urls = [...staticPages, 'blog', ...posts.map(p => p.slug)];
+const urls = [...staticPages.map(path => ({ path })), { path: 'blog' }, ...posts.map(p => ({ path: p.slug, lastmod: p.updated }))];
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-  urls.map(u => `  <url><loc>${BASE}/${u}</loc></url>`).join('\n') + '\n</urlset>\n');
+  urls.map(u => `  <url><loc>${BASE}/${u.path}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`).join('\n') + '\n</urlset>\n');
 console.log(`Built ${posts.length} articles, blog index, sitemap (${urls.length} URLs) -> public/`);

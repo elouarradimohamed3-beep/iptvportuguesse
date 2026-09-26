@@ -2,6 +2,7 @@
 title: "O IPTV Smart Player: A Melhor Opção para Entretenimento em Casa"
 description: "Experimente o iptv smart player e descubra um novo mundo de entretenimento. Com ele, você terá acesso a mais de 20.000 canais de TV, filmes e séries de…"
 date: "2026-04-01"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

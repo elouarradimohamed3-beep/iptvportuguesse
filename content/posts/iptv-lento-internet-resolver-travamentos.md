@@ -2,6 +2,7 @@
 title: "IPTV Lento Internet: Como Resolver Travamentos (Guia Definitivo)"
 description: "Você se prepara para assistir seu filme ou série favorita, mas a transmissão é constantemente interrompida por congelamentos? Se a sua experiência se…"
 date: "2026-01-15"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

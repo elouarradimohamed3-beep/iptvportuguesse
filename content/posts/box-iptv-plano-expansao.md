@@ -2,6 +2,7 @@
 title: "Box IPTV O Guia Definitivo e Plano de Expansão para 202"
 description: "Descubra tudo sobre a box IPTV. O nosso guia e plano de expansão ajudam-no a escolher, configurar e otimizar o seu entretenimento."
 date: "2026-04-19"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

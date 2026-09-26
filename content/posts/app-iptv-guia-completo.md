@@ -2,6 +2,7 @@
 title: "App IPTV: O Guia Completo para Escolher e Configurar"
 description: "Procura o melhor app iptv? Descubra como escolher, instalar e configurar a sua aplicação para ver TV com qualidade. Leia o nosso guia agora!"
 date: "2026-04-29"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

@@ -2,6 +2,7 @@
 title: "IPTV Portugal: Guia Completo Para Ver TV Online e Streaming"
 description: "A forma como consumimos entretenimento em casa mudou drasticamente na última década. Já não estamos presos aos horários rígidos das emissoras de televisão…"
 date: "2026-01-04"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

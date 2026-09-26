@@ -2,6 +2,7 @@
 title: "Melhor IPTV Portugal 2026: Guia Completo de Estabilidade e Qualidade"
 description: "A forma como consumimos televisão mudou radicalmente nos últimos anos. Em 2026, a procura pelo melhor IPTV Portugal atingiu níveis sem precedentes…"
 date: "2026-03-05"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

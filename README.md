@@ -17,6 +17,7 @@ Create `content/posts/my-slug.md`:
 title: "Article title"
 description: "One or two sentences for Google (max ~155 characters)"
 date: "2026-09-26"
+updated: "2026-09-26"   # optional; shown as "Atualizado em" and used for sitemap lastmod
 category: "Guia · IPTV Portugal"
 ---
 

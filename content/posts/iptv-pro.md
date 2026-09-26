@@ -2,6 +2,7 @@
 title: "IPTV Pro: O Guia Definitivo para Streaming de Alta Qualidade"
 description: "Descubra tudo sobre o iptv pro neste guia completo. Aprenda a configurar, escolher a melhor lista e desfrutar de TV sem limites. Leia agora!"
 date: "2026-05-11"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 

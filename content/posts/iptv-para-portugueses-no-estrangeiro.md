@@ -2,6 +2,7 @@
 title: "IPTV para Portugueses no Estrangeiro: Guia de Configuração 2026"
 description: "Para quem vive fora de Portugal, a saudade é um sentimento constante. Entre o desejo de ouvir a nossa língua e a vontade de acompanhar as notícias, os…"
 date: "2026-02-04"
+updated: "2026-09-26"
 category: "Guia · IPTV Portugal"
 ---
 
