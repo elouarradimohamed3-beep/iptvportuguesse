@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<style>html{-webkit-text-size-adjust:100%}img,svg,video{max-width:100%;height:auto}html,body{overflow-x:hidden}</style>
+<style>html{-webkit-text-size-adjust:100%}img,svg,video{max-width:100%;height:auto}html,body{overflow-x:hidden}[hidden]{display:none!important}</style>
 <title>IPTV Portugal – Canais Portugueses em 4K | iptvportuguesse</title>
 <meta name="description" content="IPTV Portugal com mais de 55.000 canais ao vivo e 90.000 filmes e séries. O serviço de IPTV em Portugal com canais portugueses, desporto e VOD em 4K. Teste antes de comprar.">
 <meta name="keywords" content="iptv portugal, iptv em portugal, iptv portugues, portuguese iptv, portugal iptv">
@@ -343,9 +343,10 @@
   .foot-grid a{text-decoration:none;} .foot-grid a:hover{color:var(--text);}
   .foot-bottom{margin-top:32px; padding-top:20px; border-top:1px solid var(--border); display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;}
 
-  .cookiebar{position:fixed; left:16px; right:16px; bottom:16px; z-index:60; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:var(--shadow); padding:16px 18px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; max-width:900px; margin-inline:auto;}
+  .cookiebar{position:fixed; left:16px; right:16px; bottom:16px; z-index:100; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:var(--shadow); padding:16px 18px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; max-width:900px; margin-inline:auto;}
   .cookiebar p{font-size:13px; color:var(--text-dim); flex:1; min-width:220px;}
-  .cookiebtns{display:flex; gap:8px;}
+  .cookiebtns{display:flex; gap:8px; flex-wrap:wrap;}
+  @media (max-width:768px){ .cookiebar{bottom:calc(84px + env(safe-area-inset-bottom,0px));} }
   .cookiebtns button{border-radius:999px; border:1px solid var(--border); background:var(--surface-2); font-weight:700; font-size:12.5px; padding:9px 16px; cursor:pointer; color:var(--text);}
   .cookiebtns button.accept{background:var(--good); color:#fff; border-color:var(--good);}
 </style>
