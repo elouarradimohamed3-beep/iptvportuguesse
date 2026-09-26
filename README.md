@@ -1,10 +1,35 @@
 # IPTV Portugal — static site
 
-Static HTML/CSS/JS site for iptvportuguesse.com. Entry point: `index.html`.
+Static site for www.iptvportuguesse.com, built with a tiny dependency-free script (`node build.js`) and deployed on Vercel.
 
-- `pack-*.html` — plan pages (3 / 6 / 12 months, 1–3 devices, order via WhatsApp)
-- `blog.html` + one HTML file per article (41 posts, original slugs)
-- `canais.html`, `terms.html`, `privacy.html`, `refund.html`, `404.html`
-- `sitemap.xml`, `robots.txt`, `manifest.json`, `favicon.svg`
+## Structure
+- `content/posts/*.md` — the 41 blog articles as Markdown (file name = URL slug)
+- `templates/article.html`, `templates/blog.html` — page templates for articles and the blog index
+- `build.js` — renders Markdown to HTML, builds the blog index and `sitemap.xml` into `public/`
+- Root `*.html` — hand-written pages: home, plans (`pack-*`), `canais`, `iptv-setup`, `contact-us`, legal pages, `404`
+- `vercel.json` — build settings, clean URLs (no `.html`, no trailing slash) and redirects for old WordPress URLs
 
-Serve any static host. To keep WordPress-style URLs (`/slug/`), map `/<slug>/` to `<slug>.html` in the server rewrite rules.
+## Add or edit an article
+Create `content/posts/my-slug.md`:
+
+```
+---
+title: "Article title"
+description: "One or two sentences for Google (max ~155 characters)"
+date: "2026-09-26"
+category: "Guia · IPTV Portugal"
+---
+
+## First heading
+
+Paragraph with **bold**, *italic* and [a link](/other-slug).
+```
+
+Supported: `##`/`###`/`####` headings, paragraphs, `-` and `1.` lists, `>` quotes, pipe tables, links, bold, italic.
+Link to other articles as `/slug`. Commit and push — Vercel rebuilds automatically.
+
+## Local preview
+```
+node build.js
+npx serve public   # or any static server
+```

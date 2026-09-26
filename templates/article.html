@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>html{-webkit-text-size-adjust:100%}img,svg,video{max-width:100%;height:auto}html,body{overflow-x:hidden}[hidden]{display:none!important}</style>
-<title>Contacte-nos</title>
-<meta name="description" content="Contacte a equipa do IPTV Portugal por WhatsApp ou e-mail. Suporte em português, todos os dias.">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.iptvportuguesse.com/contact-us">
+<link rel="canonical" href="https://www.iptvportuguesse.com/{{slug}}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +15,13 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ContactPage",
-  "headline": "Contacte-nos",
-  "description": "Contacte a equipa do IPTV Portugal por WhatsApp ou e-mail. Suporte em português, todos os dias.",
+  "@type": "Article",
+  "headline": {{jsonTitle}},
+  "description": {{jsonDescription}},
   "author": { "@type": "Organization", "name": "IPTV Portugal" },
+  "datePublished": "{{date}}",
   "publisher": { "@type": "Organization", "name": "IPTV Portugal" },
-  "mainEntityOfPage": "https://www.iptvportuguesse.com/contact-us"
+  "mainEntityOfPage": "https://www.iptvportuguesse.com/{{slug}}"
 }
 </script>
 <style>
@@ -61,20 +62,11 @@
   .tbl tr:last-child td{border-bottom:none;}
   .byline{font-size:12.5px; color:var(--text-dim); margin:-6px 0 20px;}
   article blockquote{border-left:3px solid var(--accent); margin:16px 0; padding:4px 16px; color:#cfd3d6;}
-
-  .ccards{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:18px 0 8px;}
-  @media (max-width:560px){ .ccards{grid-template-columns:1fr;} }
-  .ccard{display:flex; flex-direction:column; gap:4px; background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px; color:var(--text);}
-  .ccard:hover{border-color:rgba(0,212,255,.4);}
-  .ccard strong{font-size:16px;} .ccard span{font-size:13px; color:var(--text-dim);}
-  .cform{display:flex; flex-direction:column; gap:6px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:22px; margin-bottom:10px;}
-  .cform label{font-size:12px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--text-dim); margin-top:8px;}
-  .cform input,.cform textarea{background:#070707; border:1px solid var(--border); border-radius:10px; padding:12px 14px; color:var(--text); font:inherit; font-size:14.5px;}
-  .cform input:focus,.cform textarea:focus{outline:2px solid var(--accent);}
-  .cform .btn{margin-top:14px;}
 </style>
 </head>
 <body>
+<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+
 <header class="nav">
   <div class="navrow">
     <a class="brand" href="/"><img src="/favicon.svg" alt="Logótipo IPTV Portugal"> IPTV Portugal</a>
@@ -83,38 +75,25 @@
 </header>
 
 <div class="wrap">
-  <div class="breadcrumb"><a href="/">Início</a> › Contacte-nos</div>
+  <div class="breadcrumb"><a href="/">Início</a> › <a href="/blog">Blog</a> › {{title}}</div>
   <article>
-    <div class="meta">Suporte</div>
-    <h1 class="title">Contacte-nos</h1>
-    <p>A nossa equipa responde em português, todos os dias. Escolha o canal que preferir — o WhatsApp é o mais rápido.</p>
-    <div class="ccards">
-      <a class="ccard" href="https://api.whatsapp.com/send/?phone=212707711512&text=Ol%C3%A1%21%20Preciso%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20IPTV%20Portugal&type=phone_number&app_absent=0" target="_blank" rel="noopener"><strong>WhatsApp</strong><span>Resposta em poucos minutos · 24/7</span></a>
-      <a class="ccard" href="mailto:goldengateiptv@gmail.com"><strong>E-mail</strong><span>Para questões mais detalhadas</span></a>
+    <div class="meta">{{category}}</div>
+    <h1 class="title">{{title}}</h1>
+    <p class="byline">Publicado em {{dateHuman}}</p>
+    {{body}}
+    <div class="cta-box">
+      <h3>Pronto para experimentar o IPTV Portugal?</h3>
+      <p>55.000+ canais ao vivo, 90.000+ filmes e séries, a partir de 32€ por 3 meses.</p>
+      <a class="btn" href="/#planos">Ver Planos e Preços</a>
     </div>
-    <h2>Envie-nos uma mensagem</h2>
-    <p>Preencha o formulário e abrimos o WhatsApp com a sua mensagem já escrita.</p>
-    <form id="cform" class="cform">
-      <label for="cf-name">Nome</label><input id="cf-name" type="text" placeholder="O seu nome" required>
-      <label for="cf-email">E-mail</label><input id="cf-email" type="email" placeholder="seu@email.com">
-      <label for="cf-phone">Telemóvel / WhatsApp</label><input id="cf-phone" type="tel" placeholder="+351 912 345 678">
-      <label for="cf-msg">Mensagem</label><textarea id="cf-msg" rows="5" placeholder="Como podemos ajudar?" required></textarea>
-      <button class="btn" type="submit" style="width:100%; justify-content:center; cursor:pointer">Continuar no WhatsApp →</button>
-    </form>
-    <h2>Antes de nos contactar</h2>
-    <ul>
-      <li>Precisa de ajuda a instalar? Veja o <a href="/iptv-setup">guia de configuração passo a passo</a>.</li>
-      <li>Quer perceber os preços? Consulte os <a href="/#planos">planos</a> e a <a href="/#faq">FAQ</a>.</li>
-      <li>Garantia de reembolso de 7 dias — consulte a <a href="/refund">política de devolução</a>.</li>
-    </ul>
-    <script>
-      document.getElementById('cform').addEventListener('submit', function(e){
-        e.preventDefault();
-        var v = function(id){ return document.getElementById(id).value.trim(); };
-        var t = 'Olá! Nome: ' + v('cf-name') + (v('cf-email') ? ' | Email: ' + v('cf-email') : '') + (v('cf-phone') ? ' | Tel: ' + v('cf-phone') : '') + ' | ' + v('cf-msg');
-        window.open('https://api.whatsapp.com/send/?phone=212707711512&text=' + encodeURIComponent(t) + '&type=phone_number&app_absent=0', '_blank');
-      });
-    </script>
+    <div class="related">
+      <h4>Continue a Ler</h4>
+      <ul>
+        <li><a href="/blog">← Voltar ao Blog</a></li>
+        <li><a href="/canais">Lista Completa de Canais</a></li>
+        <li><a href="/#planos">Planos e Preços</a></li>
+      </ul>
+    </div>
   </article>
 </div>
 

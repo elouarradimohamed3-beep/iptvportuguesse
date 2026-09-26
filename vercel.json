@@ -1,11 +1,33 @@
 {
+  "buildCommand": "node build.js",
+  "outputDirectory": "public",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/refund-policy", "destination": "/refund", "permanent": true },
-    { "source": "/privacy-policy", "destination": "/privacy", "permanent": true },
-    { "source": "/terms-and-conditions", "destination": "/terms", "permanent": true },
-    { "source": "/product-category/:path*", "destination": "/#planos", "permanent": true },
-    { "source": "/feed", "destination": "/blog", "permanent": true }
+    {
+      "source": "/refund-policy",
+      "destination": "/refund",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions",
+      "destination": "/terms",
+      "permanent": true
+    },
+    {
+      "source": "/product-category/:path*",
+      "destination": "/#planos",
+      "permanent": true
+    },
+    {
+      "source": "/feed",
+      "destination": "/blog",
+      "permanent": true
+    }
   ]
 }
