@@ -31,7 +31,7 @@
     },
     {
       "source": "/iptv-portuguesse-plano-expansao",
-      "destination": "https://www.goldengateiptv.pt/iptv-portugal-guia-completo",
+      "destination": "https://www.goldengateiptv.pt/iptv-portugal-guia",
       "statusCode": 302
     },
     {
