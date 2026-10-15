@@ -35,6 +35,11 @@
       "statusCode": 302
     },
     {
+      "source": "/",
+      "destination": "https://www.goldengateiptv.pt/",
+      "statusCode": 302
+    },
+    {
       "source": "/:path*",
       "destination": "https://www.goldengateiptv.pt/:path*",
       "statusCode": 302
