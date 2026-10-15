@@ -6,28 +6,38 @@
   "redirects": [
     {
       "source": "/refund-policy",
-      "destination": "/refund",
-      "permanent": true
+      "destination": "https://www.goldengateiptv.pt/refund",
+      "statusCode": 302
     },
     {
       "source": "/privacy-policy",
-      "destination": "/privacy",
-      "permanent": true
+      "destination": "https://www.goldengateiptv.pt/privacy",
+      "statusCode": 302
     },
     {
       "source": "/terms-and-conditions",
-      "destination": "/terms",
-      "permanent": true
+      "destination": "https://www.goldengateiptv.pt/terms",
+      "statusCode": 302
     },
     {
       "source": "/product-category/:path*",
-      "destination": "/#planos",
-      "permanent": true
+      "destination": "https://www.goldengateiptv.pt/#planos",
+      "statusCode": 302
     },
     {
       "source": "/feed",
-      "destination": "/blog",
-      "permanent": true
+      "destination": "https://www.goldengateiptv.pt/blog",
+      "statusCode": 302
+    },
+    {
+      "source": "/iptv-portuguesse-plano-expansao",
+      "destination": "https://www.goldengateiptv.pt/iptv-portugal-guia-completo",
+      "statusCode": 302
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.goldengateiptv.pt/:path*",
+      "statusCode": 302
     }
   ]
 }
